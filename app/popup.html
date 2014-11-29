@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
     <head>
         <meta charset="utf-8">
         <!-- build:css styles/vendor.css -->
@@ -27,4 +28,59 @@
             <button id="button">Highlight</button>
         </div>
     </body>
+
+<head>
+  <meta charset="utf-8">
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:css styles/main.css -->
+  <link href="styles/main.css" rel="stylesheet">
+  <!-- endbuild -->
+</head>
+<body>
+<h1>News Context d3</h1>
+
+<!-- http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html -->
+<h2>Author</h2>
+
+<div class="author">
+
+  <div class="name">Greg Muttitt</div>
+  <div class="twitter">@fuelonthefire</div>
+
+  <div class="twitter-sparkline row">
+    <div class="spark-tweets"></div>
+    <span class="retweets"></span>
+    <span class="label">retweets today</span>
+  </div>
+
+  <div class="byline">Greg Muttitt is author of Fuel on the Fire: Oil and Politics in Occupied Iraq.</div>
+
+</div>
+
+<h3>Recent articles</h3>
+
+<div class="author-recent">
+  <ul>
+    <li><a href="http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html">OPEC in
+      the age of climate change</a></li>
+  </ul>
+</div>
+
+<script src="bower_components/d3/d3.js"></script>
+<script src="bower_components/underscore/underscore-min.js"></script>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js scripts/popup.js -->
+<script src="scripts/popup.js"></script>
+<!-- endbuild -->
+</body>
+
 </html>

@@ -34,7 +34,6 @@ module.exports = function (grunt) {
       },
       js: {
         files: ['<%= config.app %>/scripts/{,*/}*.js'],
-        tasks: ['jshint'],
         options: {
           livereload: true
         }
@@ -59,6 +58,17 @@ module.exports = function (grunt) {
           '<%= config.app %>/manifest.json',
           '<%= config.app %>/_locales/{,*/}*.json'
         ]
+      }
+    },
+
+    sass: {                              // Task
+      dist: {                            // Target
+        options: {                       // Target options
+          style: 'expanded'
+        },
+        files: {                         // Dictionary of files
+          '<%= config.app %>/styles/main.css': '<%= config.app %>/styles/main.scss'
+        }
       }
     },
 
@@ -296,8 +306,8 @@ module.exports = function (grunt) {
 
   grunt.registerTask('debug', function () {
     grunt.task.run([
-      //'jshint',
       'concurrent:chrome',
+      'sass',
       'connect:chrome',
       'watch'
     ]);
@@ -322,8 +332,10 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('default', [
-    'jshint',
     'test',
     'build'
   ]);
+
+  grunt.loadNpmTasks('grunt-contrib-sass');
+
 };

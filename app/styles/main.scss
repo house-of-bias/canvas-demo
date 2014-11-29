@@ -1,6 +1,17 @@
+$grey-light: #f2f2f2;
+$grey-lightish: #e6e6e6;
+$grey: #dcdcda;
+$bold: #72c29b;
+$boldish: #60aa85;
+$bold-dark: #47834b;
+$bold-alt: #a4a875;
+
+@import "tabs";
+
 body {
-  padding: 20px;
+  padding: 0px;
   width: 520px;
+  background-color: $grey-lightish;
 }
 
 .author {}

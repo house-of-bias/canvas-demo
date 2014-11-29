@@ -22,3 +22,14 @@ Create a solution to help media consumers evaluate the possible perceptions of b
 ### Additional Considerations:
 
 Because perceptions of bias, truth, and trustworthiness vary depending on who the consumer is, focus on giving consumers the additional context they need to make informed decisions about what media they choose to believe and consume, rather than making explicit judgements on the bias, truth, or trustworthiness of media sources.
+ 
+## Installation
+
+```
+git clone git@github.com:house-of-bias/canvas-demo.git
+cd canvas-demo
+bower install & npm install
+```
+
+Go to Chrome preferences, and under extensions, put into developer mode and load the
+ unpackaged extension by pointing to the canvas-demo/app folder.

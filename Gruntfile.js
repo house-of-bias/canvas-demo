@@ -61,6 +61,17 @@ module.exports = function (grunt) {
       }
     },
 
+    sass: {                              // Task
+      dist: {                            // Target
+        options: {                       // Target options
+          style: 'expanded'
+        },
+        files: {                         // Dictionary of files
+          '<%= config.app %>/styles/main.css': '<%= config.app %>/styles/main.scss'
+        }
+      }
+    },
+
     // Grunt server and debug server setting
     connect: {
       options: {
@@ -296,6 +307,7 @@ module.exports = function (grunt) {
   grunt.registerTask('debug', function () {
     grunt.task.run([
       'concurrent:chrome',
+      'sass',
       'connect:chrome',
       'watch'
     ]);
@@ -323,4 +335,7 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  grunt.loadNpmTasks('grunt-contrib-sass');
+
 };

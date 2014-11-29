@@ -11,22 +11,15 @@
   <!-- endbuild -->
 </head>
 <body>
-<h1>News Context d3</h1>
-
-<div style="width:200px">
-  <button id="button">Highlight</button>
-</div>
-
-<div class="tabs">
-  <ul>
-    <li class="active tab-author">Author</li>
-    <li class="tab-analysis">Analysis</li>
-  </ul>
-</div>
+<ul class="tabs">
+  <li class="active" data-panel="tab-author">Author</li>
+  <li data-panel="tab-analysis">Analysis</li>
+  <li data-panel="tab-annotation">Annotation</li>
+</ul>
 
 <div class="tab-panels">
 
-  <div class="active tab-author">
+  <div class="active panel tab-author">
 
     <!-- http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html -->
     <h2>Author</h2>
@@ -56,7 +49,7 @@
     </div>
 
   </div>
-  <div class="tab-analysis">
+  <div class="tab-analysis panel">
     <h2>Text Analysis</h2>
 
     <p>We have detected the following key words. Click one to highlight instances within the article.</p>
@@ -69,9 +62,15 @@
     </ul>
 
   </div>
+  <div class="tab-annotation panel">
+    <div style="width:200px">
+      <button id="button">Highlight</button>
+    </div>
+  </div>
 
 </div>
 
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/d3/d3.js"></script>
 <script src="bower_components/underscore/underscore-min.js"></script>
 

@@ -2,11 +2,15 @@
 
 console.log('\'Allo \'Allo! Content script');
 
-chrome.extension.onMessage.addListener(function(message, sender, sendResponse) {
-	switch(message.type) {
-		case "hilite":
-			console.log("wow youre really hiliting");
-		break;
+window.onload = function() {
+
+	// Al-jazeera
+	if ( window.location.href.indexOf( "aljazeera.com" ) > -1 ) {
+		var authorName = $( '.author-name', '#dvAuthorInfo' ).find( 'a' ).html();
+		console.log('Al Jazeera detected.', authorName);
+		chrome.runtime.sendMessage( {authorName: authorName.trim()} );
 	}
-});
+
+};
+
 

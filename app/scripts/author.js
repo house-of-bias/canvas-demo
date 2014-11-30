@@ -4,22 +4,24 @@ window.canvasbias.author = {
   init: function() {
 
     console.log('Initializing author.');
+    var self = this;
 
     var authorTemplate = $('#template-author').html();
     console.log(authorTemplate);
 
-    // TODO: mock data per person.
-    var self = this;
-    d3.json("data/greg.json", function(error, data) {
-      // Sparkline.
-      // Max: d3.max(_.pluck(data, 'retweets'))
-      $('#gen').html(_.template(authorTemplate)(data));
+    chrome.runtime.sendMessage( { requestAuthor: true }, function(response) {
+      console.log('popup says author is: ' + response);
+      d3.json("data/greg.json", function(error, data) {
+        // Sparkline.
+        // Max: d3.max(_.pluck(data, 'retweets'))
+        $('#gen').html(_.template(authorTemplate)(data));
 
-      var retweets = data.twitter.retweets;
-      self.createSparkline('.spark-tweets', retweets);
-      d3.select('.retweets', retweets ).html( retweets[retweets.length - 1].retweets ) ;
+        var retweets = data.twitter.retweets;
+        self.createSparkline('.spark-tweets', retweets);
+        d3.select('.retweets', retweets ).html( retweets[retweets.length - 1].retweets ) ;
 
-    });
+      });
+    }  );
 
   },
 

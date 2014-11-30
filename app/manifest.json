@@ -12,8 +12,13 @@
         "scripts": [
             "scripts/chromereload.js",
             "scripts/background.js"
-        ]
+        ],
+        "persistant": true
     },
+    "web_accessible_resources": [
+        "bower_components/jquery/dist/jquery.min.js",
+        "bower_components/jquery/dist/jquery.min.map"
+    ],
     "browser_action": {
         "default_icon": {
             "19": "images/icon-19.png",
@@ -22,6 +27,9 @@
         "default_title": "News Context",
         "default_popup": "popup.html"
     },
+    "permissions": [
+        "background"
+    ],
     "options_page": "options.html",
     "content_scripts": [
         {
@@ -33,7 +41,8 @@
                 "styles/main.css"
             ],
             "js": [
-                "scripts/contentscript.js"
+                "scripts/contentscript.js",
+                "bower_components/jquery/dist/jquery.min.js"
             ],
             "run_at": "document_end",
             "all_frames": false

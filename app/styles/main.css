@@ -132,6 +132,7 @@ body#bias .publisher .column-first {
   float: left;
   margin-right: 35px;
   margin-left: 88px;
+  width: 75px;
 }
 body#bias .publisher .column-second {
   float: left;

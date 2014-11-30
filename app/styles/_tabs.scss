@@ -1,5 +1,36 @@
-.tabs, .tab-panels {
-  //display: none;
-  .active { display: block; }
+.tabs {
+  @include clearfix();
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  li {
+    float: left;
+    width: 33%;
+    text-align: center;
+    background-color: $grey-lightish;
+    padding: 5px 0;
+    color: #888;
+    cursor: pointer;
+    &.active {
+      cursor: default;
+      weight: bold;
+      color: black;
+      background-color: $paper;
+    }
+  }
+}
+
+.tab-panels {
+  .panel {
+    display: none;
+    padding: 10px;
+    &.active {
+      display: block;
+      background-color: $paper;
+    }
+  }
+
+
 }
 

@@ -1,5 +1,3 @@
-'use strict';
-
 window.canvasbias = _.isObject(window.canvasbias) || {};
 window.canvasbias.author = {
 
@@ -7,16 +5,20 @@ window.canvasbias.author = {
 
     console.log('Initializing author.');
 
+    var authorTemplate = $('#template-author').html();
+    console.log(authorTemplate);
+
     // TODO: mock data per person.
     var self = this;
     d3.json("data/greg.json", function(error, data) {
-      console.log(data);
       // Sparkline.
       // Max: d3.max(_.pluck(data, 'retweets'))
+      $('#gen').html(_.template(authorTemplate)(data));
+
       var retweets = data.twitter.retweets;
-      console.log(retweets);
       self.createSparkline('.spark-tweets', retweets);
       d3.select('.retweets', retweets ).html( retweets[retweets.length - 1].retweets ) ;
+
     });
 
   },

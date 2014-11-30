@@ -4,6 +4,7 @@ body#bias {
   width: 520px;
   background-color: #f6f3ef;
   /* Sparkline */
+  /* Author */
 }
 body#bias .tabs {
   padding: 0;
@@ -33,11 +34,14 @@ body#bias .tabs li.active {
 }
 body#bias .tab-panels .panel {
   display: none;
-  padding: 10px;
+  padding: 1em;
 }
 body#bias .tab-panels .panel.active {
   display: block;
   background-color: #f6f3ef;
+}
+body#bias a {
+  color: #393999;
 }
 body#bias .row {
   clear: both;
@@ -70,3 +74,32 @@ body#bias .twitter-sparkline div {
 body#bias .retweets {
   color: #f00;
 }
+body#bias .author .row {
+  margin: 1em 0;
+}
+body#bias .author .label {
+  color: #999;
+  font-size: 0.9em;
+}
+body#bias .author .profile {
+  width: 40%;
+  float: left;
+}
+body#bias .author .profile .author-photo {
+  width: 175px;
+}
+body#bias .author .profile .author-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+body#bias .author .profile .name {
+  font-size: 18px;
+  margin: 0.5em 0 0;
+}
+body#bias .author .profile-text {
+  float: left;
+  width: 60%;
+}
+
+/*# sourceMappingURL=main.css.map */

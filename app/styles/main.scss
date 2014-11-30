@@ -5,8 +5,11 @@ body#bias {
   
   padding: 0;
   margin: 0;
-  width: 520px;
+  width: $popup-width;
   background-color: $paper;
+  a {
+    color: $link;
+  }
 
   .author {}
   .row {
@@ -44,5 +47,45 @@ body#bias {
   .retweets {
     color: #f00;
   }
+
+  /* Author */
+  .author {
+
+    .row {
+      margin: 1em 0;
+    }
+
+    .label {
+      color: #999;
+      font-size: 0.9em;
+    }
+
+    .profile {
+      width: 40%;
+      float: left;
+      .author-photo {
+        width: 175px;
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+        }
+      }
+      .name {
+        font-size: 18px;
+        margin: 0.5em 0 0;
+      }
+      .twitter {}
+    }
+
+    .profile-text {
+      float: left;
+      width: 60%;
+    }
+
+  }
+
+
+
 }
 

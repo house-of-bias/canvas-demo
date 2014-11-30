@@ -1,14 +1,19 @@
 // Original JavaScript code by Chirp Internet: www.chirp.com.au
 // Please acknowledge use of this code by including this header.
+var words = require('./data/words.json');
 
+var wordlist = $.map(words, function(el){return el});
+/*for (var i = 0; i < words.length; i++){
+  wordlist += words[i] + " ";
+}*/
 
-function hiliteTheWords(){
-  console.log ("highlighting words");
-  var wordlist = "these will all be highlighted";
-  var myHilitor = new Hilitor();
-  myHilitor.apply(wordlist); 
+console.log("highlighting words");
+console.log(wordlist);
 
-}
+var myHilitor = new Hilitor();
+
+// What follows is from chirp.com.au
+// Modified to: use single color
 
 function Hilitor(id, tag)
 {
@@ -16,7 +21,7 @@ function Hilitor(id, tag)
   var targetNode = document.getElementById(id) || document.body;
   var hiliteTag = tag || "EM";
   var skipTags = new RegExp("^(?:" + hiliteTag + "|SCRIPT|FORM|SPAN)$");
-  var colors = ["#ff6", "#a0ffff", "#9f9", "#f99", "#f6f"];
+  var colors = ["#ff6"];
   var wordColor = [];
   var colorIdx = 0;
   var matchRegex = "";

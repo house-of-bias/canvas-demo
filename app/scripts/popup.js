@@ -44,7 +44,14 @@ chrome.runtime.onMessage.addListener(
        if (request.type == "score-content"){
       console.log('recieved score!!!');
       console.log(request.score);
-      document.getElementsByClassName("this-sentiment")[0].innerHTML = "<p class='this-sentiment' style='position: absolute; bottom: " + (40+(500*request.score))+ "px; font-size:36px'>→</p>";
+      var adjusted_score = (40+(450*request.score));
+      if (adjusted_score > 125){
+        adjusted_score = 125;
+      } else if (adjusted_score < 20){
+        adjusted_score = 20;
+      }
+      console.log(adjusted_score);
+      document.getElementsByClassName("this-sentiment")[0].innerHTML = "<p class='this-sentiment' style='position: absolute; bottom: " + adjusted_score + "px; font-size:36px'>→</p>";
     }
   });
 

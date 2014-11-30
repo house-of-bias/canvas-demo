@@ -26,24 +26,35 @@
 
       <tr>
         <td>
-          <h2>Text Analysis</h2>
-    <div style="width:200px">
-      <button id="button">Highlight Weasel Words</button>
-    </div>
+          <h2>Flagged Key Words</h2>
     <div class = "byline row">
-    We have detected the following key words. Click one to highlight instances within the article.
+    We have detected key words that may suggest bias, including the following:
   </div>
     <ul class="potent-words">
-      <li>duck</li>
-      <li>goose</li>
-      <li>gun</li>
-      <li>hunter</li>
+      <li>arguably</li>
+      <li>quite</li>
+      <li>claimed</li>
+      <li>surprisingly</li>
+      <li>considered</li>
     </ul>
+    Click below to highlight all key terms. <br><br>
+    <div style="width:200px; text-align: center">
+      <button id="button" >Highlight Weasel Words</button>
+    </div>
     </td>
-    <td>
+
+    <td style="border-left:solid 1px #d3d3d3; padding: 15px; text-align:center">
       
-      <div>
-    Here we talk about more stuff.
+      <div style="width: 165px" >
+    <h2 style="text-align: left">Sentiment Analysis</h2>
+    <div style="text-align: left">
+      Compare the sentiment of the language used in this piece against other news media articles on the same topic.<br><br><br>
+      <div class="label" style="text-align: left"><font color="#333333">Related Articles:</font></div>
+      
+        <a  href="http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html">Deaths reported in China 'terrorist attack'</a> <span class="date">Al Jazeera</span>
+            <br>
+          <a href="http://www.aljazeera.com/indepth/opinion/profile/greg-muttitt--.html">15 die in attack in rebellious Chinese region despite increased security</a> <span class="date">Columbus Dispatch</span>
+      </div>
   </div>
     </td>
     <td>
@@ -51,24 +62,18 @@
 
       <table>
         <tr>
-          <th>
-            This Article
-          </th>
-          <th>
-            Others on the Topic
-          </th>
-        </tr>
-        <tr>
-          <td>
-            <div>
+         
+       
+          <td style="text-align:center"><br>This Article<br><br>
+            <font color="#001031"><div>
               <p class="this-sentiment" style="position: absolute; bottom: -30px; font-size:36px" >→</p>
-          <img src="data/photos/barometer.jpg" style="border-radius: 15px"></img>
+          <img src="data/photos/barometer.jpg" style="border-radius: 15px"></img></font>
         </div>
         </td>
-        <td >
-          <div>
-            <p class="this-sentiment" style="position: absolute; bottom: 42px; font-size:36px" >→</p>
-          <img src="data/photos/barometer.jpg" style="border-radius: 15px"></img>
+        <td style="text-align:center; padding: 10px">Others on the Topic<br><br>
+          <div><font color="#001031">
+            <p class="this-sentiment" style="position: absolute; text-align: right; bottom: 60px; right: 20px; font-size:36px" >  →</p></font>
+          <img src="data/photos/barometer.jpg" style="border-radius: 15px; text-align:center;" ></img>
         </div>
         </div>
         </td>

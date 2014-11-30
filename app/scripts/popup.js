@@ -1,5 +1,5 @@
 'use strict';
-
+console.log('content');
 window.onload = function() {
 
   canvasbias.author.init();
@@ -14,9 +14,19 @@ window.onload = function() {
     $panels.find( '.' + $t.data( 'panel' ) ).addClass( 'active' );
   } );
 
-  document.getElementById("button").onclick = function() {
+document.getElementById("button").onclick = function() {
+  console.log(document.getElementById("button").innerText);
+  if (document.getElementById("button").innerText == "Highlight Weasel Words"){
     chrome.extension.sendMessage({
-      type: "hilite"
-    });
+           type: "hilite"
+         });
+          document.getElementById("button").innerText = "Remove Highlights";
+    }
+   else if (document.getElementById("button").innerText == "Remove Highlights"){
+    chrome.extension.sendMessage({
+           type: "unhilite"
+         });
+          document.getElementById("button").innerText = "Highlight Weasel Words";
+    }
   }
-};
+}; 

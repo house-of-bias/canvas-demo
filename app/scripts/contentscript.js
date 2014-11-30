@@ -14,3 +14,24 @@ window.onload = function() {
 };
 
 
+chrome.runtime.onMessage.addListener(
+  function(request, sender, sendResponse) {
+  	switch (request.type){
+  		case "hilite-content":
+  			console.log("content hilite request recieved");
+			// Update wordlist with space separated string containing trigger words 
+			var wordlist = "these will all be highlighted through most of the novel";
+			myHilitor.apply(wordlist); 
+			break;
+		case "unhilite-content":
+			console.log("content unhilite request recieved");
+			myHilitor.remove();
+		default:
+			break;
+  	}
+
+    if (request.type == "hilite-content"){
+      
+  }
+
+ });

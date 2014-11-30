@@ -3,12 +3,7 @@
 
 
 console.log ("highlighting words");
-
-// Update wordlist with space separated string containing trigger words 
-var wordlist = "these will all be highlighted through most of the novel";
-
 var myHilitor = new Hilitor();
-myHilitor.apply(wordlist); 
 
 // What follows is from chirp.com.au
 // Modified to: use single color

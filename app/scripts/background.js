@@ -22,4 +22,29 @@ chrome.runtime.onMessage.addListener(
           sendResponse(authorName);
       }
 
+      if (request.type == "hilite"){
+        console.log("Hilite Request Recieved by background");
+        // Send message to content listener
+        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+          chrome.tabs.sendMessage(tabs[0].id, {
+              type: "hilite-content"
+            }, function(response) {
+              console.log(response);
+            });
+          });
+
+      }
+      if (request.type == "unhilite"){
+        console.log("Hilite Request Recieved by background");
+        // Send message to content listener
+        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+          chrome.tabs.sendMessage(tabs[0].id, {
+              type: "unhilite-content"
+            }, function(response) {
+              console.log(response);
+            });
+          });
+
+      }
+
   } );

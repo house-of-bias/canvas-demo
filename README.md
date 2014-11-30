@@ -29,7 +29,8 @@ Because perceptions of bias, truth, and trustworthiness vary depending on who th
 git clone git@github.com:house-of-bias/canvas-demo.git
 cd canvas-demo
 bower install & npm install
+grunt debug
 ```
 
-Go to Chrome preferences, and under extensions, put into developer mode and load the
+Go to Chrome preferences, and under extensions, put the browser into developer mode and load the
  unpackaged extension by pointing to the canvas-demo/app folder.

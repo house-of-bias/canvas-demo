@@ -40,17 +40,9 @@
 
   <!-- Author -->
   <div class="panel tab-author active">
-
-    <div id="gen"></div>
-
-    <h3>Recent articles</h3>
-
-    <div class="author-recent">
-      <ul>
-        <li><a href="http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html">OPEC in
-          the age of climate change</a></li>
-      </ul>
-    </div>
+    <div id="author-container"></div>
+    <hr class="break"/>
+    <div id="publisher-container"></div>
   </div>
 
   <!-- Audience -->
@@ -72,6 +64,7 @@
     </div>
 
     <div class="profile-text">
+
       <div class="twitter-sparkline row">
         <div class="spark-tweets"></div>
         <span class="retweets"></span>
@@ -88,8 +81,47 @@
         <%= affiliations.aljazeera.bio %>
       </div>
 
+      <div class="author-recent row">
+        <div class="label">Al-Jazeera history:</div>
+        <ul>
+          <li><a href="http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html">OPEC in
+            the age of climate change</a> <span class="date">28 Nov 2014</span></li>
+          <li><a href="http://www.aljazeera.com/indepth/opinion/profile/greg-muttitt--.html">Mission accomplished for Big Oil?</a> <span class="date">31 Aug 2012</span></li>
+        </ul>
+      </div>
+
     </div>
 
+  </div>
+</script>
+<script id="template-publisher" type="text/template">
+  <div class="publisher">
+    <div class="column-first">
+      <div class="logo"><img src="<%= Logo %>" /></div>
+      <h3 class="name"><a href="<% Domain %>"><%= Name %></a></h3>
+    </div>
+    <div class="column-second">
+      <div class="byline row">
+        <div class="label">Slogan:</div>
+        <%= Slogan %>
+      </div>
+      <div class="byline row">
+        <div class="label">Launched:</div>
+        <%= Launched %>
+      </div>
+      <div class="byline row">
+        <div class="label">Country:</div>
+        <%= Country %>
+      </div>
+      <div class="byline row">
+        <div class="label">Funded by:</div>
+        <%= FundedBy %>
+      </div>
+      <div class="byline row">
+        <div class="label">Owner:</div>
+        <%= Owner %>
+      </div>
+    </div>
   </div>
 </script>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>

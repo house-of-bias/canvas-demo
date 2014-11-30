@@ -32,6 +32,14 @@ body#bias .tabs li.active {
   color: black;
   background-color: #f6f3ef;
 }
+body#bias .tab-panels {
+  padding-bottom: 1em;
+}
+body#bias .tab-panels:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 body#bias .tab-panels .panel {
   display: none;
   padding: 1em;
@@ -74,32 +82,72 @@ body#bias .twitter-sparkline div {
 body#bias .retweets {
   color: #f00;
 }
+body#bias #author-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body#bias .break {
+  clear: both;
+  height: 1px;
+  background-color: #e6e6e6;
+  margin: 2em 0;
+  border: none;
+}
+body#bias .publisher .row,
 body#bias .author .row {
   margin: 1em 0;
 }
+body#bias .publisher .label,
 body#bias .author .label {
   color: #999;
   font-size: 0.9em;
 }
+body#bias .publisher .profile,
 body#bias .author .profile {
   width: 40%;
   float: left;
 }
+body#bias .publisher .profile .author-photo,
 body#bias .author .profile .author-photo {
   width: 175px;
 }
+body#bias .publisher .profile .author-photo img,
 body#bias .author .profile .author-photo img {
   width: 100%;
   height: auto;
   border-radius: 5px;
 }
+body#bias .publisher .profile .name,
 body#bias .author .profile .name {
   font-size: 18px;
   margin: 0.5em 0 0;
 }
+body#bias .publisher .profile-text,
 body#bias .author .profile-text {
   float: left;
   width: 60%;
+}
+body#bias .publisher .column-first {
+  float: left;
+  margin-right: 35px;
+  margin-left: 88px;
+}
+body#bias .publisher .column-second {
+  float: left;
+  width: 170px;
+}
+body#bias .publisher .logo img {
+  width: 75px;
+  height: auto;
+}
+body#bias .author-recent ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body#bias .author-recent ul span.date {
+  color: #aaa;
 }
 
 /*# sourceMappingURL=main.css.map */

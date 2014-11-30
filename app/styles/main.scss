@@ -49,6 +49,17 @@ body#bias {
   }
 
   /* Author */
+  #author-container {
+    @include clearfix();
+  }
+  .break {
+    clear: both;
+    height: 1px;
+    background-color: #e6e6e6; //$bold-alt;
+    margin: 2em 0;
+    border: none;
+  }
+  .publisher,
   .author {
 
     .row {
@@ -83,6 +94,34 @@ body#bias {
       width: 60%;
     }
 
+  }
+
+  .publisher {
+    .column-first {
+      float: left;
+      margin-right: 35px;
+      margin-left: 88px;
+    }
+    .column-second {
+      float: left;
+      width: 170px;
+    }
+
+    .logo img {
+      width: 75px;
+      height: auto;
+    }
+  }
+
+  .author-recent {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      span.date {
+        color: #aaa;
+      }
+    }
   }
 
 

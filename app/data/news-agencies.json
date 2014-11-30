@@ -1,0 +1,30 @@
+[
+  {
+    "Name":"Al Jazeera",
+    "Domain":"http://aljazeera.com",
+    "Country":"Qatar",
+    "Launched":1996,
+    "Owner":"Al Jazeera Media Network",
+    "FundedBy":"House of Thani",
+    "Slogan":"The Opinion and The Other Opinion",
+    "Logo":"data/logos/aljazeera.png"
+  },
+  {
+    "Name":"Cable News Network (CNN)",
+    "Domain":"http://cnn.com",
+    "Country":"United States",
+    "Launched":1980,
+    "Owner":"Turner Broadcasting System (Time Warner)",
+    "FundedBy":"",
+    "Slogan":"Go There"
+  },
+  {
+    "Name":"The New York Times",
+    "Domain":"http://nytimes.com",
+    "Country":"United States",
+    "Launched":1851,
+    "Owner":"The New York Times Company",
+    "FundedBy":"Publicly Traded",
+    "Slogan":"All The News That's Fit To Print"
+  }
+]

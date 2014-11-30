@@ -33,6 +33,25 @@ body#bias {
     #color: #222;
   }
 
+  .tab-audience.panel {
+    min-height: 450px;
+  }
+
+  svg {
+    fill: white;
+  }
+  .land {
+    fill: #ccc;
+  }
+  .tweet {
+    fill: #333;
+  }
+
+  .boundary {
+    fill: none;
+    stroke: $grey;
+    stroke-linejoin: round;
+  }
 
   /* Sparkline */
 

@@ -1,0 +1,249 @@
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef0c" }, "cc" : "ABW", "en" : "Aruba", "nl" : "Aruba" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef0d" }, "cc" : "AFG", "en" : "Afghanistan", "nl" : "Afghanistan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef0e" }, "cc" : "AGO", "en" : "Angola", "nl" : "Angola" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef0f" }, "cc" : "AIA", "en" : "Anguilla", "nl" : "Anguilla" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef10" }, "cc" : "ALA", "en" : "Åland Islands", "nl" : "Åland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef11" }, "cc" : "ALB", "en" : "Albania", "nl" : "Albanië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef12" }, "cc" : "AND", "en" : "Andorra", "nl" : "Andorra" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef13" }, "cc" : "ARE", "en" : "United Arab Emirates", "nl" : "Verenigde Arabische Emiraten" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef14" }, "cc" : "ARG", "en" : "Argentina", "nl" : "Argentinië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef15" }, "cc" : "ARM", "en" : "Armenia", "nl" : "Armenië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef16" }, "cc" : "ASM", "en" : "American Samoa", "nl" : "Amerikaans-Samoa" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef17" }, "cc" : "ATA", "en" : "Antarctica", "nl" : "Antarctica" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef18" }, "cc" : "ATF", "en" : "French Southern Territories", "nl" : "Franse Zuidelijke en Antarctische Gebieden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef19" }, "cc" : "ATG", "en" : "Antigua and Barbuda", "nl" : "Antigua en Barbuda" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef1a" }, "cc" : "AUS", "en" : "Australia", "nl" : "Australië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef1b" }, "cc" : "AUT", "en" : "Austria", "nl" : "Oostenrijk" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef1c" }, "cc" : "AZE", "en" : "Azerbaijan", "nl" : "Azerbeidzjan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef1d" }, "cc" : "BDI", "en" : "Burundi", "nl" : "Burundi" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef1e" }, "cc" : "BEL", "en" : "Belgium", "nl" : "België" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef1f" }, "cc" : "BEN", "en" : "Benin", "nl" : "Benin" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef20" }, "cc" : "BES", "en" : "Bonaire, Sint Eustatius and Saba", "nl" : "Bonaire, Sint Eustatius en Saba" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef21" }, "cc" : "BFA", "en" : "Burkina Faso", "nl" : "Burkina Faso" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef22" }, "cc" : "BGD", "en" : "Bangladesh", "nl" : "Bangladesh" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef23" }, "cc" : "BGR", "en" : "Bulgaria", "nl" : "Bulgarije" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef24" }, "cc" : "BHR", "en" : "Bahrain", "nl" : "Bahrein" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef25" }, "cc" : "BHS", "en" : "Bahamas", "nl" : "Bahama's" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef26" }, "cc" : "BIH", "en" : "Bosnia and Herzegovina", "nl" : "Bosnië en Herzegovina" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef27" }, "cc" : "BLM", "en" : "Saint Barthélemy", "nl" : "Saint-Barthélemy" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef28" }, "cc" : "BLR", "en" : "Belarus", "nl" : "Wit-Rusland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef29" }, "cc" : "BLZ", "en" : "Belize", "nl" : "Belize" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef2a" }, "cc" : "BMU", "en" : "Bermuda", "nl" : "Bermuda" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef2b" }, "cc" : "BOL", "en" : "Bolivia, Plurinational State of", "nl" : "Bolivia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef2c" }, "cc" : "BRA", "en" : "Brazil", "nl" : "Brazilië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef2d" }, "cc" : "BRB", "en" : "Barbados", "nl" : "Barbados" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef2e" }, "cc" : "BRN", "en" : "Brunei Darussalam", "nl" : "Brunei" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef2f" }, "cc" : "BTN", "en" : "Bhutan", "nl" : "Bhutan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef30" }, "cc" : "BVT", "en" : "Bouvet Island", "nl" : "Bouveteiland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef31" }, "cc" : "BWA", "en" : "Botswana", "nl" : "Botswana" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef32" }, "cc" : "CAF", "en" : "Central African Republic", "nl" : "Centraal-Afrikaanse Republiek" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef33" }, "cc" : "CAN", "en" : "Canada", "nl" : "Canada" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef34" }, "cc" : "CCK", "en" : "Cocos (Keeling) Islands", "nl" : "Cocoseilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef35" }, "cc" : "CHE", "en" : "Switzerland", "nl" : "Zwitserland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef36" }, "cc" : "CHL", "en" : "Chile", "nl" : "Chili" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef37" }, "cc" : "CHN", "en" : "China", "nl" : "China" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef38" }, "cc" : "CIV", "en" : "Côte d'Ivoire", "nl" : "Ivoorkust" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef39" }, "cc" : "CMR", "en" : "Cameroon", "nl" : "Kameroen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef3a" }, "cc" : "COD", "en" : "Congo, the Democratic Republic of the", "nl" : "Congo-Kinshasa" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef3b" }, "cc" : "COG", "en" : "Congo", "nl" : "Congo-Brazzaville" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef3c" }, "cc" : "COK", "en" : "Cook Islands", "nl" : "Cookeilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef3d" }, "cc" : "COL", "en" : "Colombia", "nl" : "Colombia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef3e" }, "cc" : "COM", "en" : "Comoros", "nl" : "Comoren" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef3f" }, "cc" : "CPV", "en" : "Cape Verde", "nl" : "Kaapverdië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef40" }, "cc" : "CRI", "en" : "Costa Rica", "nl" : "Costa Rica" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef41" }, "cc" : "CUB", "en" : "Cuba", "nl" : "Cuba" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef42" }, "cc" : "CUW", "en" : "Curaçao", "nl" : "Curaçao" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef43" }, "cc" : "CXR", "en" : "Christmas Island", "nl" : "Christmaseiland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef44" }, "cc" : "CYM", "en" : "Cayman Islands", "nl" : "Kaaimaneilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef45" }, "cc" : "CYP", "en" : "Cyprus", "nl" : "Cyprus" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef46" }, "cc" : "CZE", "en" : "Czech Republic", "nl" : "Tsjechië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef47" }, "cc" : "DEU", "en" : "Germany", "nl" : "Duitsland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef48" }, "cc" : "DJI", "en" : "Djibouti", "nl" : "Djibouti" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef49" }, "cc" : "DMA", "en" : "Dominica", "nl" : "Dominica" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef4a" }, "cc" : "DNK", "en" : "Denmark", "nl" : "Denemarken" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef4b" }, "cc" : "DOM", "en" : "Dominican Republic", "nl" : "Dominicaanse Republiek" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef4c" }, "cc" : "DZA", "en" : "Algeria", "nl" : "Algerije" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef4d" }, "cc" : "ECU", "en" : "Ecuador", "nl" : "Ecuador" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef4e" }, "cc" : "EGY", "en" : "Egypt", "nl" : "Egypte" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef4f" }, "cc" : "ERI", "en" : "Eritrea", "nl" : "Eritrea" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef50" }, "cc" : "ESH", "en" : "Western Sahara", "nl" : "Westelijke Sahara" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef51" }, "cc" : "ESP", "en" : "Spain", "nl" : "Spanje" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef52" }, "cc" : "EST", "en" : "Estonia", "nl" : "Estland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef53" }, "cc" : "ETH", "en" : "Ethiopia", "nl" : "Ethiopië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef54" }, "cc" : "FIN", "en" : "Finland", "nl" : "Finland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef55" }, "cc" : "FJI", "en" : "Fiji", "nl" : "Fiji" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef56" }, "cc" : "FLK", "en" : "Falkland Islands (Malvinas)", "nl" : "Falklandeilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef57" }, "cc" : "FRA", "en" : "France", "nl" : "Frankrijk" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef58" }, "cc" : "FRO", "en" : "Faroe Islands", "nl" : "Faeröer" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef59" }, "cc" : "FSM", "en" : "Micronesia, Federated States of", "nl" : "Micronesia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef5a" }, "cc" : "GAB", "en" : "Gabon", "nl" : "Gabon" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef5b" }, "cc" : "GBR", "en" : "United Kingdom", "nl" : "Verenigd Koninkrijk" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef5c" }, "cc" : "GEO", "en" : "Georgia", "nl" : "Georgië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef5d" }, "cc" : "GGY", "en" : "Guernsey", "nl" : "Guernsey" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef5e" }, "cc" : "GHA", "en" : "Ghana", "nl" : "Ghana" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef5f" }, "cc" : "GIB", "en" : "Gibraltar", "nl" : "Gibraltar" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef60" }, "cc" : "GIN", "en" : "Guinea", "nl" : "Guinee" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef61" }, "cc" : "GLP", "en" : "Guadeloupe", "nl" : "Guadeloupe" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef62" }, "cc" : "GMB", "en" : "Gambia", "nl" : "Gambia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef63" }, "cc" : "GNB", "en" : "Guinea-Bissau", "nl" : "Guinee-Bissau" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef64" }, "cc" : "GNQ", "en" : "Equatorial Guinea", "nl" : "Equatoriaal-Guinea" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef65" }, "cc" : "GRC", "en" : "Greece", "nl" : "Griekenland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef66" }, "cc" : "GRD", "en" : "Grenada", "nl" : "Grenada" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef67" }, "cc" : "GRL", "en" : "Greenland", "nl" : "Groenland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef68" }, "cc" : "GTM", "en" : "Guatemala", "nl" : "Guatemala" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef69" }, "cc" : "GUF", "en" : "French Guiana", "nl" : "Frans-Guyana" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef6a" }, "cc" : "GUM", "en" : "Guam", "nl" : "Guam" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef6b" }, "cc" : "GUY", "en" : "Guyana", "nl" : "Guyana" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef6c" }, "cc" : "HKG", "en" : "Hong Kong", "nl" : "Hongkong" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef6d" }, "cc" : "HMD", "en" : "Heard Island and McDonald Islands", "nl" : "Heard en MacDonaldeilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef6e" }, "cc" : "HND", "en" : "Honduras", "nl" : "Honduras" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef6f" }, "cc" : "HRV", "en" : "Croatia", "nl" : "Kroatië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef70" }, "cc" : "HTI", "en" : "Haiti", "nl" : "Haïti" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef71" }, "cc" : "HUN", "en" : "Hungary", "nl" : "Hongarije" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef72" }, "cc" : "IDN", "en" : "Indonesia", "nl" : "Indonesië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef73" }, "cc" : "IMN", "en" : "Isle of Man", "nl" : "Man" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef74" }, "cc" : "IND", "en" : "India", "nl" : "India" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef75" }, "cc" : "IOT", "en" : "British Indian Ocean Territory", "nl" : "Brits Indische Oceaanterritorium" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef76" }, "cc" : "IRL", "en" : "Ireland", "nl" : "Ierland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef77" }, "cc" : "IRN", "en" : "Iran, Islamic Republic of", "nl" : "Iran" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef78" }, "cc" : "IRQ", "en" : "Iraq", "nl" : "Irak" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef79" }, "cc" : "ISL", "en" : "Iceland", "nl" : "IJsland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef7a" }, "cc" : "ISR", "en" : "Israel", "nl" : "Israël" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef7b" }, "cc" : "ITA", "en" : "Italy", "nl" : "Italië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef7c" }, "cc" : "JAM", "en" : "Jamaica", "nl" : "Jamaica" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef7d" }, "cc" : "JEY", "en" : "Jersey", "nl" : "Jersey" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef7e" }, "cc" : "JOR", "en" : "Jordan", "nl" : "Jordanië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef7f" }, "cc" : "JPN", "en" : "Japan", "nl" : "Japan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef80" }, "cc" : "KAZ", "en" : "Kazakhstan", "nl" : "Kazachstan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef81" }, "cc" : "KEN", "en" : "Kenya", "nl" : "Kenia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef82" }, "cc" : "KGZ", "en" : "Kyrgyzstan", "nl" : "Kirgizië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef83" }, "cc" : "KHM", "en" : "Cambodia", "nl" : "Cambodja" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef84" }, "cc" : "KIR", "en" : "Kiribati", "nl" : "Kiribati" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef85" }, "cc" : "KNA", "en" : "Saint Kitts and Nevis", "nl" : "Saint Kitts en Nevis" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef86" }, "cc" : "KOR", "en" : "Korea, Republic of", "nl" : "Zuid-Korea" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef87" }, "cc" : "KWT", "en" : "Kuwait", "nl" : "Koeweit" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef88" }, "cc" : "LAO", "en" : "Lao People's Democratic Republic", "nl" : "Laos" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef89" }, "cc" : "LBN", "en" : "Lebanon", "nl" : "Libanon" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef8a" }, "cc" : "LBR", "en" : "Liberia", "nl" : "Liberia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef8b" }, "cc" : "LBY", "en" : "Libya", "nl" : "Libië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef8c" }, "cc" : "LCA", "en" : "Saint Lucia", "nl" : "Saint Lucia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef8d" }, "cc" : "LIE", "en" : "Liechtenstein", "nl" : "Liechtenstein" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef8e" }, "cc" : "LKA", "en" : "Sri Lanka", "nl" : "Sri Lanka" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef8f" }, "cc" : "LSO", "en" : "Lesotho", "nl" : "Lesotho" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef90" }, "cc" : "LTU", "en" : "Lithuania", "nl" : "Litouwen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef91" }, "cc" : "LUX", "en" : "Luxembourg", "nl" : "Luxemburg" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef92" }, "cc" : "LVA", "en" : "Latvia", "nl" : "Letland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef93" }, "cc" : "MAC", "en" : "Macao", "nl" : "Macau" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef94" }, "cc" : "MAF", "en" : "Saint Martin (French part)", "nl" : "Sint-Maarten" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef95" }, "cc" : "MAR", "en" : "Morocco", "nl" : "Marokko" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef96" }, "cc" : "MCO", "en" : "Monaco", "nl" : "Monaco" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef97" }, "cc" : "MDA", "en" : "Moldova, Republic of", "nl" : "Moldavië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef98" }, "cc" : "MDG", "en" : "Madagascar", "nl" : "Madagaskar" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef99" }, "cc" : "MDV", "en" : "Maldives", "nl" : "Maldiven" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef9a" }, "cc" : "MEX", "en" : "Mexico", "nl" : "Mexico" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef9b" }, "cc" : "MHL", "en" : "Marshall Islands", "nl" : "Marshalleilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef9c" }, "cc" : "MKD", "en" : "Macedonia, the former Yugoslav Republic of", "nl" : "Macedonië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef9d" }, "cc" : "MLI", "en" : "Mali", "nl" : "Mali" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef9e" }, "cc" : "MLT", "en" : "Malta", "nl" : "Malta" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346ef9f" }, "cc" : "MMR", "en" : "Myanmar", "nl" : "Myanmar" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa0" }, "cc" : "MNE", "en" : "Montenegro", "nl" : "Montenegro" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa1" }, "cc" : "MNG", "en" : "Mongolia", "nl" : "Mongolië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa2" }, "cc" : "MNP", "en" : "Northern Mariana Islands", "nl" : "Noordelijke Marianen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa3" }, "cc" : "MOZ", "en" : "Mozambique", "nl" : "Mozambique" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa4" }, "cc" : "MRT", "en" : "Mauritania", "nl" : "Mauritanië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa5" }, "cc" : "MSR", "en" : "Montserrat", "nl" : "Montserrat" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa6" }, "cc" : "MTQ", "en" : "Martinique", "nl" : "Martinique" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa7" }, "cc" : "MUS", "en" : "Mauritius", "nl" : "Mauritius" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa8" }, "cc" : "MWI", "en" : "Malawi", "nl" : "Malawi" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efa9" }, "cc" : "MYS", "en" : "Malaysia", "nl" : "Maleisië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efaa" }, "cc" : "MYT", "en" : "Mayotte", "nl" : "Mayotte" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efab" }, "cc" : "NAM", "en" : "Namibia", "nl" : "Namibië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efac" }, "cc" : "NCL", "en" : "New Caledonia", "nl" : "Nieuw-Caledonië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efad" }, "cc" : "NER", "en" : "Niger", "nl" : "Niger" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efae" }, "cc" : "NFK", "en" : "Norfolk Island", "nl" : "Norfolk" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efaf" }, "cc" : "NGA", "en" : "Nigeria", "nl" : "Nigeria" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb0" }, "cc" : "NIC", "en" : "Nicaragua", "nl" : "Nicaragua" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb1" }, "cc" : "NIU", "en" : "Niue", "nl" : "Niue" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb2" }, "cc" : "NLD", "en" : "Netherlands", "nl" : "Nederland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb3" }, "cc" : "NOR", "en" : "Norway", "nl" : "Noorwegen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb4" }, "cc" : "NPL", "en" : "Nepal", "nl" : "Nepal" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb5" }, "cc" : "NRU", "en" : "Nauru", "nl" : "Nauru" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb6" }, "cc" : "NZL", "en" : "New Zealand", "nl" : "Nieuw-Zeeland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb7" }, "cc" : "OMN", "en" : "Oman", "nl" : "Oman" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb8" }, "cc" : "PAK", "en" : "Pakistan", "nl" : "Pakistan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efb9" }, "cc" : "PAN", "en" : "Panama", "nl" : "Panama" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efba" }, "cc" : "PCN", "en" : "Pitcairn", "nl" : "Pitcairneilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efbb" }, "cc" : "PER", "en" : "Peru", "nl" : "Peru" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efbc" }, "cc" : "PHL", "en" : "Philippines", "nl" : "Filipijnen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efbd" }, "cc" : "PLW", "en" : "Palau", "nl" : "Palau" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efbe" }, "cc" : "PNG", "en" : "Papua New Guinea", "nl" : "Papoea-Nieuw-Guinea" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efbf" }, "cc" : "POL", "en" : "Poland", "nl" : "Polen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc0" }, "cc" : "PRI", "en" : "Puerto Rico", "nl" : "Puerto Rico" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc1" }, "cc" : "PRK", "en" : "Korea, Democratic People's Republic of", "nl" : "Noord-Korea" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc2" }, "cc" : "PRT", "en" : "Portugal", "nl" : "Portugal" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc3" }, "cc" : "PRY", "en" : "Paraguay", "nl" : "Paraguay" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc4" }, "cc" : "PSE", "en" : "Palestine, State of", "nl" : "Palestina" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc5" }, "cc" : "PYF", "en" : "French Polynesia", "nl" : "Frans-Polynesië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc6" }, "cc" : "QAT", "en" : "Qatar", "nl" : "Qatar" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc7" }, "cc" : "REU", "en" : "Réunion", "nl" : "Réunion" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc8" }, "cc" : "ROU", "en" : "Romania", "nl" : "Roemenië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efc9" }, "cc" : "RUS", "en" : "Russian Federation", "nl" : "Rusland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efca" }, "cc" : "RWA", "en" : "Rwanda", "nl" : "Rwanda" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efcb" }, "cc" : "SAU", "en" : "Saudi Arabia", "nl" : "Saoedi-Arabië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efcc" }, "cc" : "SDN", "en" : "Sudan", "nl" : "Soedan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efcd" }, "cc" : "SEN", "en" : "Senegal", "nl" : "Senegal" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efce" }, "cc" : "SGP", "en" : "Singapore", "nl" : "Singapore" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efcf" }, "cc" : "SGS", "en" : "South Georgia and the South Sandwich Islands", "nl" : "Zuid-Georgia en de Zuidelijke Sandwicheilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd0" }, "cc" : "SHN", "en" : "Saint Helena, Ascension and Tristan da Cunha", "nl" : "Sint-Helena, Ascension en Tristan da Cunha" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd1" }, "cc" : "SJM", "en" : "Svalbard and Jan Mayen", "nl" : "Spitsbergen en Jan Mayen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd2" }, "cc" : "SLB", "en" : "Solomon Islands", "nl" : "Salomonseilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd3" }, "cc" : "SLE", "en" : "Sierra Leone", "nl" : "Sierra Leone" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd4" }, "cc" : "SLV", "en" : "El Salvador", "nl" : "El Salvador" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd5" }, "cc" : "SMR", "en" : "San Marino", "nl" : "San Marino" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd6" }, "cc" : "SOM", "en" : "Somalia", "nl" : "Somalië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd7" }, "cc" : "SPM", "en" : "Saint Pierre and Miquelon", "nl" : "Saint-Pierre en Miquelon" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd8" }, "cc" : "SRB", "en" : "Serbia", "nl" : "Servië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efd9" }, "cc" : "SSD", "en" : "South Sudan", "nl" : "Zuid-Soedan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efda" }, "cc" : "STP", "en" : "Sao Tome and Principe", "nl" : "Sao Tomé en Principe" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efdb" }, "cc" : "SUR", "en" : "Suriname", "nl" : "Suriname" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efdc" }, "cc" : "SVK", "en" : "Slovakia", "nl" : "Slowakije" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efdd" }, "cc" : "SVN", "en" : "Slovenia", "nl" : "Slovenië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efde" }, "cc" : "SWE", "en" : "Sweden", "nl" : "Zweden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efdf" }, "cc" : "SWZ", "en" : "Swaziland", "nl" : "Swaziland" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe0" }, "cc" : "SXM", "en" : "Sint Maarten (Dutch part)", "nl" : "Sint Maarten" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe1" }, "cc" : "SYC", "en" : "Seychelles", "nl" : "Seychellen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe2" }, "cc" : "SYR", "en" : "Syrian Arab Republic", "nl" : "Syrië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe3" }, "cc" : "TCA", "en" : "Turks and Caicos Islands", "nl" : "Turks- en Caicoseilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe4" }, "cc" : "TCD", "en" : "Chad", "nl" : "Tsjaad" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe5" }, "cc" : "TGO", "en" : "Togo", "nl" : "Togo" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe6" }, "cc" : "THA", "en" : "Thailand", "nl" : "Thailand" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe7" }, "cc" : "TJK", "en" : "Tajikistan", "nl" : "Tadzjikistan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe8" }, "cc" : "TKL", "en" : "Tokelau", "nl" : "Tokelau" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efe9" }, "cc" : "TKM", "en" : "Turkmenistan", "nl" : "Turkmenistan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efea" }, "cc" : "TLS", "en" : "Timor-Leste", "nl" : "Oost-Timor" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efeb" }, "cc" : "TON", "en" : "Tonga", "nl" : "Tonga" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efec" }, "cc" : "TTO", "en" : "Trinidad and Tobago", "nl" : "Trinidad en Tobago" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efed" }, "cc" : "TUN", "en" : "Tunisia", "nl" : "Tunesië" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efee" }, "cc" : "TUR", "en" : "Turkey", "nl" : "Turkije" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efef" }, "cc" : "TUV", "en" : "Tuvalu", "nl" : "Tuvalu" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff0" }, "cc" : "TWN", "en" : "Taiwan, Province of China", "nl" : "Taiwan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff1" }, "cc" : "TZA", "en" : "Tanzania, United Republic of", "nl" : "Tanzania" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff2" }, "cc" : "UGA", "en" : "Uganda", "nl" : "Oeganda" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff3" }, "cc" : "UKR", "en" : "Ukraine", "nl" : "Oekraïne" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff4" }, "cc" : "UMI", "en" : "United States Minor Outlying Islands", "nl" : "Kleine Pacifische eilanden van de Verenigde Staten" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff5" }, "cc" : "URY", "en" : "Uruguay", "nl" : "Uruguay" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff6" }, "cc" : "USA", "en" : "United States", "nl" : "Verenigde Staten" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff7" }, "cc" : "UZB", "en" : "Uzbekistan", "nl" : "Oezbekistan" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff8" }, "cc" : "VAT", "en" : "Holy See (Vatican City State)", "nl" : "Vaticaanstad" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346eff9" }, "cc" : "VCT", "en" : "Saint Vincent and the Grenadines", "nl" : "Saint Vincent en de Grenadines" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346effa" }, "cc" : "VEN", "en" : "Venezuela, Bolivarian Republic of", "nl" : "Venezuela" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346effb" }, "cc" : "VGB", "en" : "Virgin Islands, British", "nl" : "Britse Maagdeneilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346effc" }, "cc" : "VIR", "en" : "Virgin Islands, U.S.", "nl" : "Amerikaanse Maagdeneilanden" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346effd" }, "cc" : "VNM", "en" : "Viet Nam", "nl" : "Vietnam" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346effe" }, "cc" : "VUT", "en" : "Vanuatu", "nl" : "Vanuatu" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346efff" }, "cc" : "WLF", "en" : "Wallis and Futuna", "nl" : "Wallis en Futuna" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346f000" }, "cc" : "WSM", "en" : "Samoa", "nl" : "Samoa" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346f001" }, "cc" : "YEM", "en" : "Yemen", "nl" : "Jemen" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346f002" }, "cc" : "ZAF", "en" : "South Africa", "nl" : "Zuid-Afrika" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346f003" }, "cc" : "ZMB", "en" : "Zambia", "nl" : "Zambia" }
+{ "_id" : { "$oid" : "533296e01c7ce5593346f004" }, "cc" : "ZWE", "en" : "Zimbabwe", "nl" : "Zimbabwe" }

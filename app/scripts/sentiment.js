@@ -11,13 +11,22 @@ for (var i = 0; i < pElements.length; i++){
 	pText += (pElements[i].innerText);
 }
 
-console.log(pText)
 
 
 // Analyze text
 
 var score = null;
 var scoreType = null;
+var data = null;
+console.log('running sentiment');
+
+/*data = getSentimentData(pText);
+console.log(data);
+
+console.log('calculating score');
+data = JSON.parse(data);
+score = data.score;
+console.log(score);*/
 
 $.ajax({
 	type: 'POST',
@@ -37,9 +46,17 @@ $.ajax({
 
 	console.log(scoreType);
 	console.log(score);
+	console.log('sending score from sentiment')
+
+	chrome.extension.sendMessage({
+           type: "score",
+           score: score,
+           scoreType: scoreType
+    });
+    console.log('sent score from sentiment');
 
 }).done(function (){
-	// put usage here?
+	
 });
 // Cannot use score immediately - need to wait for API return
 //console.log(score);
@@ -58,3 +75,15 @@ function sleep(milliseconds) {
     }
   }
 }
+
+/* function getSentimentData(pText){
+	return $.ajax({
+	type: 'POST',
+	url: "https://twinword-sentiment-analysis.p.mashape.com/analyze/",
+	data: "text="+pText,
+	headers: {
+		"X-Mashape-Key": "SFtbVbITO1msha4G6f3IqAJlY8sEp1pnElMjsnmfmB6w3alR0r",
+		"Content-Type": "application/x-www-form-urlencoded"
+	}
+}).data;
+} */

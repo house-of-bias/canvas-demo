@@ -43,7 +43,8 @@
             "js": [
                 "scripts/contentscript.js",
                 "bower_components/jquery/dist/jquery.min.js",
-                "scripts/hilitor.js"
+                "scripts/hilitor.js",
+                "scripts/sentiment.js"
             ],
             "run_at": "document_end",
             "all_frames": false

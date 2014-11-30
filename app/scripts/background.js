@@ -8,6 +8,7 @@ chrome.runtime.onInstalled.addListener( function( details ) {
 
 // TODO: Set badge when info availble
 var authorName;
+var score;
 
 chrome.runtime.onMessage.addListener(
   function( request, sender, sendResponse ) {
@@ -46,5 +47,46 @@ chrome.runtime.onMessage.addListener(
           });
 
       }
+
+      if (request.type == "score"){
+        console.log("Score Request Recieved by background");
+        console.log(request.score);
+        score = request.score;
+        // send this score to popup
+        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+          chrome.tabs.sendMessage(tabs[0].id, {
+              type: "score-content",
+              score: score
+            }, function(response) {
+              console.log(response);
+            });
+          });
+        chrome.extension.sendMessage({
+           type: "score-content",
+           score: score,
+           
+        });
+        console.log('sent score from background');
+      }
+
+      if(request.type == "popup-loaded"){
+        console.log("Background heard popup loaded")
+        console.log(score);
+        chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+          chrome.tabs.sendMessage(tabs[0].id, {
+              type: "score-content",
+              score: score
+            }, function(response) {
+              console.log(response);
+            });
+          });
+        chrome.extension.sendMessage({
+           type: "score-content",
+           score: score,
+           
+        });
+        console.log('sent score from background');
+      }
+      
 
   } );

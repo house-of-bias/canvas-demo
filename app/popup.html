@@ -76,6 +76,7 @@
         <%= twitter.bio %>
       </div>
 
+      <% if (affiliations.aljazeera) { %>
       <div class="byline row">
         <div class="label">Al-Jazeera bio:</div>
         <%= affiliations.aljazeera.bio %>
@@ -89,6 +90,23 @@
           <li><a href="http://www.aljazeera.com/indepth/opinion/profile/greg-muttitt--.html">Mission accomplished for Big Oil?</a> <span class="date">31 Aug 2012</span></li>
         </ul>
       </div>
+      <% } %>
+
+      <% if (affiliations.nytimes) { %>
+      <div class="byline row">
+        <div class="label">New York Times bio:</div>
+        <%= affiliations.nytimes.bio %>
+      </div>
+
+      <div class="author-recent row">
+        <div class="label">New York Times history:</div>
+        <ul>
+          <li><a href="http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html">OPEC in
+            the age of climate change</a> <span class="date">28 Nov 2014</span></li>
+          <li><a href="http://www.aljazeera.com/indepth/opinion/profile/greg-muttitt--.html">Mission accomplished for Big Oil?</a> <span class="date">31 Aug 2012</span></li>
+        </ul>
+      </div>
+      <% } %>
 
     </div>
 

@@ -21,14 +21,14 @@ window.canvasbias.author = {
         $('#publisher-container').html(_.template(publisherTemplate)(pub));
       });
 
-      d3.json("data/greg.json", function(error, data) {
+      d3.json("data/chrisbuckley.json", function(error, data) {
         // Sparkline.
         // Max: d3.max(_.pluck(data, 'retweets'))
         $('#author-container').html(_.template(authorTemplate)(data));
 
         var retweets = data.twitter.retweets;
         self.createSparkline('.spark-tweets', retweets);
-        d3.select('.retweets', retweets ).html( retweets[retweets.length - 1].retweets ) ;
+        d3.select('.retweets', retweets ).html( retweets[0].retweets ) ;
 
       });
     }  );

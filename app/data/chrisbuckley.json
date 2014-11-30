@@ -1,12 +1,12 @@
 {
-  "author": "Greg Muttitt",
-  "photo": "data/photos/greg.jpeg",
+  "author": "Chris Buckley",
+  "photo": "data/photos/chrisbuckley.png",
   "affiliations": {
-    "aljazeera": {
-      "bio": "Greg Muttitt is author of Fuel on the Fire: Oil and Politics in Occupied Iraq.",
-      "rss": "http://www.aljazeera.com/Services/Rss/?PostingId=201282611432224602"
-    },
-    "nytimes": false
+    "aljazeera": false,
+    "nytimes": {
+      "bio": "Chris Buckley is a correspondent for The New York Times who was forced to leave mainland China in late December 2012 after the authorities declined to issue him a visa for 2013.",
+      "rss": "http://topics.nytimes.com/top/reference/timestopics/people/b/chris_buckley/index.html?rss=1"
+    }
   },
   "twitter": {
     "username": "fuelonthefire",
@@ -14,19 +14,19 @@
     "retweets": [
       {
         "date":"Dec 18, 2013",
-        "retweets":0
+        "retweets":100
       },
       {
         "date":"Dec 17, 2013",
-        "retweets":0
+        "retweets":80
       },
       {
         "date":"Dec 16, 2013",
-        "retweets":4
+        "retweets":47
       },
       {
         "date":"Dec 13, 2013",
-        "retweets":6
+        "retweets":67
       },
       {
         "date":"Dec 12, 2013",
@@ -130,7 +130,7 @@
       },
       {
         "date":"Nov 6, 2013",
-        "retweets":5
+        "retweets":2
       },
       {
         "date":"Nov 5, 2013",
@@ -154,7 +154,7 @@
       },
       {
         "date":"Oct 29, 2013",
-        "retweets":30
+        "retweets":0
       },
       {
         "date":"Oct 28, 2013",
@@ -198,7 +198,7 @@
       },
       {
         "date":"Oct 14, 2013",
-        "retweets":0
+        "retweets":32
       },
       {
         "date":"Oct 11, 2013",
@@ -246,7 +246,7 @@
       },
       {
         "date":"Sep 26, 2013",
-        "retweets":0
+        "retweets":2
       },
       {
         "date":"Sep 25, 2013",
@@ -258,7 +258,7 @@
       },
       {
         "date":"Sep 23, 2013",
-        "retweets":0
+        "retweets":10
       },
       {
         "date":"Sep 20, 2013",
@@ -298,11 +298,11 @@
       },
       {
         "date":"Sep 9, 2013",
-        "retweets":1
+        "retweets":3
       },
       {
         "date":"Sep 6, 2013",
-        "retweets":2
+        "retweets":8
       },
       {
         "date":"Sep 5, 2013",
@@ -330,7 +330,7 @@
       },
       {
         "date":"Aug 27, 2013",
-        "retweets":12
+        "retweets":2
       },
       {
         "date":"Aug 26, 2013",
@@ -374,19 +374,19 @@
       },
       {
         "date":"Aug 12, 2013",
-        "retweets":0
+        "retweets":34
       },
       {
         "date":"Aug 9, 2013",
-        "retweets":0
+        "retweets":15
       },
       {
         "date":"Aug 8, 2013",
-        "retweets":0
+        "retweets":19
       },
       {
         "date":"Aug 7, 2013",
-        "retweets":0
+        "retweets":49
       }
     ]
   }

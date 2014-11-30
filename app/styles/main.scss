@@ -1,5 +1,9 @@
 @import 'init';
 
+.highlight {
+  background-color: #ff0;
+}
+
 body#bias {
   @import 'tabs';
   
@@ -124,8 +128,6 @@ body#bias {
       }
     }
   }
-
-
 
 }
 

@@ -1,4 +1,4 @@
-[
+var words = [
   // https://github.com/wooorm/weasels/blob/master/data/weasels.txt
   "a lot",
   "about",
@@ -98,8 +98,8 @@
   "supports",
   "supposed",
   "surprisingly",
-  "that",
-  "then",
+  // "that",
+  // "then",
   "thought",
   "tiny",
   "touched",

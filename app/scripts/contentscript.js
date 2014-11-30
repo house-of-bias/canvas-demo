@@ -19,13 +19,15 @@ chrome.runtime.onMessage.addListener(
   	switch (request.type){
   		case "hilite-content":
   			console.log("content hilite request recieved");
-			// Update wordlist with space separated string containing trigger words 
-			console.log(wordlist);
-			myHilitor.apply(wordlist); 
+        for (i=0; i < words.length; i++) { 
+          $('body').highlight(words[i], { wordsOnly: true });
+        }
 			break;
 		case "unhilite-content":
 			console.log("content unhilite request recieved");
-			myHilitor.remove();
+			for (i=0; i < words.length; i++) { 
+        $('body').unhighlight(words[i]);
+      }
 		default:
 			break;
   	}

@@ -1,8 +1,15 @@
 // Original JavaScript code by Chirp Internet: www.chirp.com.au
 // Please acknowledge use of this code by including this header.
+var words = require('./data/words.json');
 
+var wordlist = $.map(words, function(el){return el});
+/*for (var i = 0; i < words.length; i++){
+  wordlist += words[i] + " ";
+}*/
 
-console.log ("highlighting words");
+console.log("highlighting words");
+console.log(wordlist);
+
 var myHilitor = new Hilitor();
 
 // What follows is from chirp.com.au

@@ -20,7 +20,7 @@ chrome.runtime.onMessage.addListener(
   		case "hilite-content":
   			console.log("content hilite request recieved");
 			// Update wordlist with space separated string containing trigger words 
-			var wordlist = "these will all be highlighted through most of the novel";
+			console.log(wordlist);
 			myHilitor.apply(wordlist); 
 			break;
 		case "unhilite-content":

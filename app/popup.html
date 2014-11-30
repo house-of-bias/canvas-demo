@@ -13,8 +13,8 @@
 <body id="bias">
 <ul class="tabs">
   <li  data-panel="tab-analysis">Analysis</li>
-  <li class="active" data-panel="tab-author">Author</li>
-  <li data-panel="tab-audience">Audience</li>
+  <li data-panel="tab-author">Author</li>
+  <li class="active" data-panel="tab-audience">Audience</li>
 </ul>
 
 <div class="tab-panels">
@@ -39,16 +39,18 @@
   </div>
 
   <!-- Author -->
-  <div class="panel tab-author active">
+  <div class="panel tab-author">
     <div id="author-container"></div>
     <hr class="break"/>
     <div id="publisher-container"></div>
   </div>
 
   <!-- Audience -->
-  <div class="tab-audience panel">
+  <div class="tab-audience panel active">
 
     <h2>Audience</h2>
+
+    <div id="map-container"></div>
 
   </div>
 
@@ -142,8 +144,10 @@
     </div>
   </div>
 </script>
+
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/d3/d3.js"></script>
+<script src="bower_components/topojson/topojson.js"></script>
 <script src="bower_components/underscore/underscore-min.js"></script>
 
 <!-- build:js scripts/vendor.js -->
@@ -156,6 +160,7 @@
 <!-- build:js scripts/popup.js -->
 <!-- http://www.aljazeera.com/indepth/opinion/2014/11/opec-age-climate-change-201411289461527196.html -->
 <script src="scripts/author.js"></script>
+<script src="scripts/audience.js"></script>
 <script src="scripts/popup.js"></script>
 <!-- endbuild -->
 </body>

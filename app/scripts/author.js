@@ -1,4 +1,4 @@
-window.canvasbias = _.isObject(window.canvasbias) || {};
+window.canvasbias = window.canvasbias || {};
 window.canvasbias.author = {
 
   init: function() {

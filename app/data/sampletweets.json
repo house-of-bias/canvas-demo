@@ -1,0 +1,1318 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "province.1402823566",
+      "type": "Feature",
+      "text": "Amman",
+      "place_name": "Amman, Jordan",
+      "relevance": 1,
+      "center": [
+        36.327483,
+        31.636662
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.327483,
+          31.636662
+        ]
+      },
+      "bbox": [
+        35.66173058399932,
+        31.247292129328343,
+        37.22172200926337,
+        32.04584788757
+      ],
+      "properties": {
+        "title": "Amman"
+      },
+      "context": [
+        {
+          "id": "country.2161202559",
+          "text": "Jordan"
+        }
+      ]
+    },
+    {
+      "id": "city.10727232",
+      "type": "Feature",
+      "text": "Amsterdam",
+      "place_name": "Amsterdam, Noord-Holland, Netherlands",
+      "relevance": 1,
+      "center": [
+        4.88683,
+        52.369839
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.88683,
+          52.369839
+        ]
+      },
+      "bbox": [
+        4.724292000000011,
+        52.28872300000001,
+        5.088643999999995,
+        52.458565000000014
+      ],
+      "properties": {
+        "title": "Amsterdam"
+      },
+      "context": [
+        {
+          "id": "province.763157633",
+          "text": "Noord-Holland"
+        },
+        {
+          "id": "country.3988857583",
+          "text": "Netherlands"
+        }
+      ]
+    },
+    {
+      "id": "city.10727232",
+      "type": "Feature",
+      "text": "Amsterdam",
+      "place_name": "Amsterdam, Noord-Holland, Netherlands",
+      "relevance": 0.5,
+      "center": [
+        4.88683,
+        52.369839
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.88683,
+          52.369839
+        ]
+      },
+      "bbox": [
+        4.724292000000011,
+        52.28872300000001,
+        5.088643999999995,
+        52.458565000000014
+      ],
+      "properties": {
+        "title": "Amsterdam"
+      },
+      "context": [
+        {
+          "id": "province.763157633",
+          "text": "Noord-Holland"
+        },
+        {
+          "id": "country.3988857583",
+          "text": "Netherlands"
+        }
+      ]
+    },
+    {
+      "id": "city.76001",
+      "type": "Feature",
+      "text": "Arlington",
+      "place_name": "Arlington, 76015, Texas, United States",
+      "relevance": 0.99,
+      "center": [
+        -97.136767,
+        32.698159
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.136767,
+          32.698159
+        ]
+      },
+      "bbox": [
+        -97.23372287788064,
+        32.58655767241938,
+        -97.03700401979859,
+        32.808767256537166
+      ],
+      "properties": {
+        "title": "Arlington"
+      },
+      "context": [
+        {
+          "id": "postcode-us.1812709420",
+          "text": "76015"
+        },
+        {
+          "id": "province.1000418602",
+          "text": "Texas"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "country.2410313673",
+      "type": "Feature",
+      "text": "Australia",
+      "place_name": "Australia",
+      "relevance": 1,
+      "center": [
+        133.528229,
+        -25.756688
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.528229,
+          -25.756688
+        ]
+      },
+      "bbox": [
+        112.92111395200003,
+        -43.74050960299999,
+        159.109219008,
+        -9.142175977000017
+      ],
+      "properties": {
+        "title": "Australia"
+      }
+    },
+    {
+      "id": "city.10013911",
+      "type": "Feature",
+      "text": "Brighton",
+      "place_name": "Brighton, BN24, The City of Brighton and Hove, United Kingdom",
+      "relevance": 0.5,
+      "center": [
+        -0.117135,
+        50.845161
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.117135,
+          50.845161
+        ]
+      },
+      "bbox": [
+        -0.2123790000000045,
+        50.792045999999985,
+        -0.028923999999992848,
+        50.90595600000003
+      ],
+      "properties": {
+        "title": "Brighton"
+      },
+      "context": [
+        {
+          "id": "postcode-gb.970",
+          "text": "BN24"
+        },
+        {
+          "id": "province.2270888381",
+          "text": "The City of Brighton and Hove"
+        },
+        {
+          "id": "country.2794958072",
+          "text": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "id": "country.1833980151",
+      "type": "Feature",
+      "text": "Canada",
+      "place_name": "Canada",
+      "relevance": 0.5,
+      "center": [
+        -105.801644,
+        76.304831
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.801644,
+          76.304831
+        ]
+      },
+      "bbox": [
+        -141.00275000000013,
+        40.043430830999895,
+        -47.69751888999983,
+        86.45371111000011
+      ],
+      "properties": {
+        "title": "Canada"
+      }
+    },
+    {
+      "id": "city.79031",
+      "type": "Feature",
+      "text": "Earth",
+      "place_name": "Earth, 79031, Texas, United States",
+      "relevance": 1,
+      "center": [
+        -102.436152,
+        34.288453
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.436152,
+          34.288453
+        ]
+      },
+      "bbox": [
+        -102.61544398315195,
+        34.16285361537005,
+        -102.31515801688244,
+        34.41293137567735
+      ],
+      "properties": {
+        "title": "Earth"
+      },
+      "context": [
+        {
+          "id": "postcode-us.3365099040",
+          "text": "79031"
+        },
+        {
+          "id": "province.1000418602",
+          "text": "Texas"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.72046",
+      "type": "Feature",
+      "text": "England",
+      "place_name": "England, 72046, Arkansas, United States",
+      "relevance": 1,
+      "center": [
+        -91.968269,
+        34.55475
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.968269,
+          34.55475
+        ]
+      },
+      "bbox": [
+        -92.1594509225528,
+        34.43402775396693,
+        -91.73817915580645,
+        34.675094387418355
+      ],
+      "properties": {
+        "title": "England"
+      },
+      "context": [
+        {
+          "id": "postcode-us.2474094218",
+          "text": "72046"
+        },
+        {
+          "id": "province.3855330187",
+          "text": "Arkansas"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.1301",
+      "type": "Feature",
+      "text": "Greenfield",
+      "place_name": "Greenfield, 01301, Massachusetts, United States",
+      "relevance": 0.99,
+      "center": [
+        -72.591502,
+        42.634149
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.591502,
+          42.634149
+        ]
+      },
+      "bbox": [
+        -72.6648999799815,
+        42.56625939128858,
+        -72.53988706824306,
+        42.70207560162979
+      ],
+      "properties": {
+        "title": "Greenfield"
+      },
+      "context": [
+        {
+          "id": "postcode-us.1239928337",
+          "text": "01301"
+        },
+        {
+          "id": "province.900225015",
+          "text": "Massachusetts"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.74937",
+      "type": "Feature",
+      "text": "Heavener",
+      "place_name": "Heavener, 74937, Oklahoma, United States",
+      "relevance": 0.98,
+      "center": [
+        -94.5465,
+        34.816091
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5465,
+          34.816091
+        ]
+      },
+      "bbox": [
+        -94.81549497560081,
+        34.6752046128353,
+        -94.44745602136504,
+        34.956428080587976
+      ],
+      "properties": {
+        "title": "Heavener"
+      },
+      "context": [
+        {
+          "id": "postcode-us.1498607282",
+          "text": "74937"
+        },
+        {
+          "id": "province.1788423601",
+          "text": "Oklahoma"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.10044418",
+      "type": "Feature",
+      "text": "London",
+      "place_name": "London, SW1H9, City of Westminster, United Kingdom",
+      "relevance": 1,
+      "center": [
+        -0.135714,
+        51.499573
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.135714,
+          51.499573
+        ]
+      },
+      "bbox": [
+        -0.5232229999999892,
+        51.27866,
+        0.3361119999999996,
+        51.72023
+      ],
+      "properties": {
+        "title": "London"
+      },
+      "context": [
+        {
+          "id": "postcode-gb.8161",
+          "text": "SW1H9"
+        },
+        {
+          "id": "province.2257219276",
+          "text": "City of Westminster"
+        },
+        {
+          "id": "country.2794958072",
+          "text": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "id": "city.32664159",
+      "type": "Feature",
+      "text": "Mississauga",
+      "place_name": "Mississauga, Ontario, Canada",
+      "relevance": 0.99,
+      "center": [
+        -79.664697,
+        43.647084
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.664697,
+          43.647084
+        ]
+      },
+      "bbox": [
+        -79.79644800000001,
+        43.505688000000006,
+        -79.542969,
+        43.801125000000006
+      ],
+      "properties": {
+        "title": "Mississauga"
+      },
+      "context": [
+        {
+          "id": "province.3735188167",
+          "text": "Ontario"
+        },
+        {
+          "id": "country.1833980151",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "city.10003534",
+      "type": "Feature",
+      "text": "Montreal",
+      "place_name": "Montreal, Quebec, Canada",
+      "relevance": 1,
+      "center": [
+        -73.618898,
+        45.528784
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.618898,
+          45.528784
+        ]
+      },
+      "bbox": [
+        -73.991806,
+        45.25809100000001,
+        -73.15632600000002,
+        45.785801000000006
+      ],
+      "properties": {
+        "title": "Montreal"
+      },
+      "context": [
+        {
+          "id": "province.884020830",
+          "text": "Quebec"
+        },
+        {
+          "id": "country.1833980151",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "country.3728778979",
+      "type": "Feature",
+      "text": "Mexico",
+      "place_name": "Mexico",
+      "relevance": 1,
+      "center": [
+        -102.370071,
+        23.944735
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.370071,
+          23.944735
+        ]
+      },
+      "bbox": [
+        -118.40764955087903,
+        14.532098361948293,
+        -86.7104052700567,
+        32.718653575262074
+      ],
+      "properties": {
+        "title": "Mexico"
+      }
+    },
+    {
+      "id": "city.10001",
+      "type": "Feature",
+      "text": "New York",
+      "place_name": "New York, 10029, New York, United States",
+      "relevance": 1,
+      "center": [
+        -73.946246,
+        40.78853
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.946246,
+          40.78853
+        ]
+      },
+      "bbox": [
+        -74.0472935031892,
+        40.68391219248488,
+        -73.91057831367289,
+        40.877656790011784
+      ],
+      "properties": {
+        "title": "New York,NY,NYC"
+      },
+      "context": [
+        {
+          "id": "postcode-us.893603920",
+          "text": "10029"
+        },
+        {
+          "id": "province.628083222",
+          "text": "New York"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "country.4150104525",
+      "type": "Feature",
+      "text": "United States",
+      "place_name": "United States",
+      "relevance": 0.5,
+      "center": [
+        -99.041476,
+        37.940855
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.041476,
+          37.940855
+        ]
+      },
+      "bbox": [
+        -179.23108600000003,
+        18.865459999999985,
+        179.85968099999997,
+        71.441059
+      ],
+      "properties": {
+        "title": "United States"
+      }
+    },
+    {
+      "id": "province.2527698115",
+      "type": "Feature",
+      "text": "Oslo",
+      "place_name": "Oslo, Norway",
+      "relevance": 0.5,
+      "center": [
+        10.775719,
+        59.972418
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.775719,
+          59.972418
+        ]
+      },
+      "bbox": [
+        10.489164999999787,
+        59.80931149999983,
+        10.95138949999979,
+        60.13510649999985
+      ],
+      "properties": {
+        "title": "Oslo"
+      },
+      "context": [
+        {
+          "id": "country.299127236",
+          "text": "Norway"
+        }
+      ]
+    },
+    {
+      "id": "city.11098081",
+      "type": "Feature",
+      "text": "Perth",
+      "place_name": "Perth, 6053, Western Australia, Australia",
+      "relevance": 0.99,
+      "center": [
+        115.917757,
+        -31.930681
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.917757,
+          -31.930681
+        ]
+      },
+      "bbox": [
+        115.68466199999999,
+        -32.206772000000015,
+        116.16291000000004,
+        -31.639219000000008
+      ],
+      "properties": {
+        "title": "Perth"
+      },
+      "context": [
+        {
+          "id": "postcode-au.2179",
+          "text": "6053"
+        },
+        {
+          "id": "province.2794067970",
+          "text": "Western Australia"
+        },
+        {
+          "id": "country.2410313673",
+          "text": "Australia"
+        }
+      ]
+    },
+    {
+      "id": "province.1000418602",
+      "type": "Feature",
+      "text": "Texas",
+      "place_name": "Texas, United States",
+      "relevance": 0.5,
+      "center": [
+        -99.810297,
+        31.319819
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.810297,
+          31.319819
+        ]
+      },
+      "bbox": [
+        -106.645646,
+        25.83716399999999,
+        -93.508039,
+        36.50070399999999
+      ],
+      "properties": {
+        "title": "Texas"
+      },
+      "context": [
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.11105779",
+      "type": "Feature",
+      "text": "Sydney",
+      "place_name": "Sydney, 2127, New South Wales, Australia",
+      "relevance": 1,
+      "center": [
+        151.059231,
+        -33.838276
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.059231,
+          -33.838276
+        ]
+      },
+      "bbox": [
+        150.50085400000006,
+        -34.133198000000014,
+        151.35246300000003,
+        -33.542175
+      ],
+      "properties": {
+        "title": "Sydney"
+      },
+      "context": [
+        {
+          "id": "postcode-au.180",
+          "text": "2127"
+        },
+        {
+          "id": "province.1412345078",
+          "text": "New South Wales"
+        },
+        {
+          "id": "country.2410313673",
+          "text": "Australia"
+        }
+      ]
+    },
+    {
+      "id": "city.11105779",
+      "type": "Feature",
+      "text": "Sydney",
+      "place_name": "Sydney, 2127, New South Wales, Australia",
+      "relevance": 0.98,
+      "center": [
+        151.059231,
+        -33.838276
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.059231,
+          -33.838276
+        ]
+      },
+      "bbox": [
+        150.50085400000006,
+        -34.133198000000014,
+        151.35246300000003,
+        -33.542175
+      ],
+      "properties": {
+        "title": "Sydney"
+      },
+      "context": [
+        {
+          "id": "postcode-au.180",
+          "text": "2127"
+        },
+        {
+          "id": "province.1412345078",
+          "text": "New South Wales"
+        },
+        {
+          "id": "country.2410313673",
+          "text": "Australia"
+        }
+      ]
+    },
+    {
+      "id": "address.110687796129",
+      "type": "Feature",
+      "text": "Tanzania Dr",
+      "place_name": "Tanzania Dr, Roseville, 95661, California, United States",
+      "relevance": 0.8823529411764706,
+      "center": [
+        -121.278009,
+        38.724881
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -121.280221,
+              38.724964
+            ],
+            [
+              -121.279732,
+              38.724964
+            ],
+            [
+              -121.278459,
+              38.724965
+            ],
+            [
+              -121.278314,
+              38.724951
+            ],
+            [
+              -121.278266,
+              38.724942
+            ],
+            [
+              -121.278148,
+              38.72492
+            ],
+            [
+              -121.278009,
+              38.724881
+            ],
+            [
+              -121.277856,
+              38.724821
+            ],
+            [
+              -121.277802,
+              38.724796
+            ]
+          ],
+          [
+            [
+              -121.277049,
+              38.724128
+            ],
+            [
+              -121.276945,
+              38.724084
+            ],
+            [
+              -121.276841,
+              38.724055
+            ],
+            [
+              -121.276107,
+              38.723923
+            ]
+          ],
+          [
+            [
+              -121.277802,
+              38.724796
+            ],
+            [
+              -121.277663,
+              38.724717
+            ],
+            [
+              -121.277521,
+              38.724612
+            ],
+            [
+              -121.277399,
+              38.724492
+            ],
+            [
+              -121.2773,
+              38.72436
+            ],
+            [
+              -121.277237,
+              38.724272
+            ],
+            [
+              -121.277159,
+              38.724199
+            ],
+            [
+              -121.277085,
+              38.724148
+            ],
+            [
+              -121.277049,
+              38.724128
+            ]
+          ]
+        ]
+      },
+      "bbox": [
+        -121.28022099999997,
+        38.723922999999985,
+        -121.27610699999995,
+        38.72496499999998
+      ],
+      "properties": {},
+      "context": [
+        {
+          "id": "city.95661",
+          "text": "Roseville"
+        },
+        {
+          "id": "postcode-us.2196518025",
+          "text": "95661"
+        },
+        {
+          "id": "province.1112151813",
+          "text": "California"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.10001846",
+      "type": "Feature",
+      "text": "Uxbridge",
+      "place_name": "Uxbridge, Ontario, Canada",
+      "relevance": 0.99,
+      "center": [
+        -79.199422,
+        44.188893
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.199422,
+          44.188893
+        ]
+      },
+      "bbox": [
+        -79.36162600000002,
+        44.034850999999996,
+        -78.94750200000003,
+        44.340855000000005
+      ],
+      "properties": {
+        "title": "Uxbridge"
+      },
+      "context": [
+        {
+          "id": "province.3735188167",
+          "text": "Ontario"
+        },
+        {
+          "id": "country.1833980151",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "city.10009807",
+      "type": "Feature",
+      "text": "Vancouver",
+      "place_name": "Vancouver, British Columbia, Canada",
+      "relevance": 1,
+      "center": [
+        -123.129456,
+        49.259519
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.129456,
+          49.259519
+        ]
+      },
+      "bbox": [
+        -123.26368000000001,
+        49.18383400000001,
+        -122.99667400000004,
+        49.325461999999995
+      ],
+      "properties": {
+        "title": "Vancouver"
+      },
+      "context": [
+        {
+          "id": "province.3196757992",
+          "text": "British Columbia"
+        },
+        {
+          "id": "country.1833980151",
+          "text": "Canada"
+        }
+      ]
+    },
+    {
+      "id": "province.429316995",
+      "type": "Feature",
+      "text": "Washington",
+      "place_name": "Washington, United States",
+      "relevance": 1,
+      "center": [
+        -120.699895,
+        47.301669
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.699895,
+          47.301669
+        ]
+      },
+      "bbox": [
+        -124.84897400000001,
+        45.54354099999998,
+        -116.91558,
+        49.002493999999984
+      ],
+      "properties": {
+        "title": "Washington"
+      },
+      "context": [
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.20001",
+      "type": "Feature",
+      "text": "Washington",
+      "place_name": "Washington, 20002, District of Columbia, United States",
+      "relevance": 0.99,
+      "center": [
+        -76.992695,
+        38.899393
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.992695,
+          38.899393
+        ]
+      },
+      "bbox": [
+        -77.11976790632382,
+        38.80310600134152,
+        -76.90938401684849,
+        38.99555498159024
+      ],
+      "properties": {
+        "title": "Washington"
+      },
+      "context": [
+        {
+          "id": "postcode-us.3962709191",
+          "text": "20002"
+        },
+        {
+          "id": "province.1190806886",
+          "text": "District of Columbia"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.1475",
+      "type": "Feature",
+      "text": "Winchendon",
+      "place_name": "Winchendon, 01475, Massachusetts, United States",
+      "relevance": 0.5,
+      "center": [
+        -72.049493,
+        42.658784
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.049493,
+          42.658784
+        ]
+      },
+      "bbox": [
+        -72.11663997345276,
+        42.60182839390273,
+        -71.98156602276433,
+        42.71717859454264
+      ],
+      "properties": {
+        "title": "Winchendon"
+      },
+      "context": [
+        {
+          "id": "postcode-us.4111660452",
+          "text": "01475"
+        },
+        {
+          "id": "province.900225015",
+          "text": "Massachusetts"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "address.110437210158",
+      "type": "Feature",
+      "text": "Worldwide Pl",
+      "place_name": "Worldwide Pl, Vandalia, 45377, Ohio, United States",
+      "relevance": 0.7894736842105263,
+      "center": [
+        -84.22548,
+        39.88546
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -84.226205,
+              39.885461
+            ],
+            [
+              -84.227143,
+              39.885455
+            ]
+          ],
+          [
+            [
+              -84.223886,
+              39.885472
+            ],
+            [
+              -84.224101,
+              39.885467
+            ],
+            [
+              -84.224431,
+              39.885469
+            ],
+            [
+              -84.22548,
+              39.88546
+            ],
+            [
+              -84.226205,
+              39.885461
+            ]
+          ]
+        ]
+      },
+      "bbox": [
+        -84.22714299999998,
+        39.885454999999986,
+        -84.22388599999998,
+        39.88547199999999
+      ],
+      "properties": {},
+      "context": [
+        {
+          "id": "city.45377",
+          "text": "Vandalia"
+        },
+        {
+          "id": "postcode-us.569691879",
+          "text": "45377"
+        },
+        {
+          "id": "province.2820712142",
+          "text": "Ohio"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    },
+    {
+      "id": "city.10551801",
+      "type": "Feature",
+      "text": "Vienna",
+      "place_name": "Vienna, Wien, Austria",
+      "relevance": 1,
+      "center": [
+        16.36358,
+        48.224906
+      ],
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.36358,
+          48.224906
+        ]
+      },
+      "bbox": [
+        16.16852799999999,
+        48.105885,
+        16.55014000000001,
+        48.34312099999999
+      ],
+      "properties": {
+        "title": "Vienna"
+      },
+      "context": [
+        {
+          "id": "province.4274944703",
+          "text": "Wien"
+        },
+        {
+          "id": "country.1242622259",
+          "text": "Austria"
+        }
+      ]
+    },
+    {
+      "id": "address.110437210158",
+      "type": "Feature",
+      "text": "Worldwide Pl",
+      "place_name": "Worldwide Pl, Vandalia, 45377, Ohio, United States",
+      "relevance": 0.7894736842105263,
+      "center": [
+        -84.22548,
+        39.88546
+      ],
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -84.226205,
+              39.885461
+            ],
+            [
+              -84.227143,
+              39.885455
+            ]
+          ],
+          [
+            [
+              -84.223886,
+              39.885472
+            ],
+            [
+              -84.224101,
+              39.885467
+            ],
+            [
+              -84.224431,
+              39.885469
+            ],
+            [
+              -84.22548,
+              39.88546
+            ],
+            [
+              -84.226205,
+              39.885461
+            ]
+          ]
+        ]
+      },
+      "bbox": [
+        -84.22714299999998,
+        39.885454999999986,
+        -84.22388599999998,
+        39.88547199999999
+      ],
+      "properties": {},
+      "context": [
+        {
+          "id": "city.45377",
+          "text": "Vandalia"
+        },
+        {
+          "id": "postcode-us.569691879",
+          "text": "45377"
+        },
+        {
+          "id": "province.2820712142",
+          "text": "Ohio"
+        },
+        {
+          "id": "country.4150104525",
+          "text": "United States"
+        }
+      ]
+    }
+  ]
+}

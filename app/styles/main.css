@@ -1,0 +1,105 @@
+body#bias {
+  padding: 0;
+  margin: 0;
+  width: 520px;
+  background-color: #f6f3ef;
+  /* Sparkline */
+  /* Author */
+}
+body#bias .tabs {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+}
+body#bias .tabs:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body#bias .tabs li {
+  float: left;
+  width: 33%;
+  text-align: center;
+  background-color: #e6e6e6;
+  padding: 5px 0;
+  color: #888;
+  cursor: pointer;
+}
+body#bias .tabs li.active {
+  cursor: default;
+  weight: bold;
+  color: black;
+  background-color: #f6f3ef;
+}
+body#bias .tab-panels .panel {
+  display: none;
+  padding: 1em;
+}
+body#bias .tab-panels .panel.active {
+  display: block;
+  background-color: #f6f3ef;
+}
+body#bias a {
+  color: #393999;
+}
+body#bias .row {
+  clear: both;
+  margin: 0.25em 0;
+}
+body#bias .field-title,
+body#bias .field-value {
+  float: left;
+}
+body#bias .field-title {
+  width: 25%;
+  color: #666;
+}
+body#bias .field-value {
+  width: 75%;
+  #color: #222;
+}
+body#bias .sparkline {
+  fill: none;
+  stroke: #000;
+  stroke-width: 0.5px;
+}
+body#bias .sparkcircle {
+  fill: #f00;
+  stroke: none;
+}
+body#bias .twitter-sparkline div {
+  display: inline-block;
+}
+body#bias .retweets {
+  color: #f00;
+}
+body#bias .author .row {
+  margin: 1em 0;
+}
+body#bias .author .label {
+  color: #999;
+  font-size: 0.9em;
+}
+body#bias .author .profile {
+  width: 40%;
+  float: left;
+}
+body#bias .author .profile .author-photo {
+  width: 175px;
+}
+body#bias .author .profile .author-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+body#bias .author .profile .name {
+  font-size: 18px;
+  margin: 0.5em 0 0;
+}
+body#bias .author .profile-text {
+  float: left;
+  width: 60%;
+}
+
+/*# sourceMappingURL=main.css.map */

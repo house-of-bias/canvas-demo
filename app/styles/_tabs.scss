@@ -24,7 +24,7 @@
 .tab-panels {
   .panel {
     display: none;
-    padding: 10px;
+    padding: 1em;
     &.active {
       display: block;
       background-color: $paper;

@@ -43,7 +43,7 @@ chrome.runtime.onMessage.addListener(
        if (request.type == "score-content"){
       console.log('recieved score!!!');
       console.log(request.score);
-      document.getElementsByClassName("this-sentiment")[0].innerHTML = "<p class='this-sentiment' style='position: absolute; bottom: " + (40+(1000*request.score))+ "px; font-size:36px'>→</p>";
+      document.getElementsByClassName("this-sentiment")[0].innerHTML = "<p class='this-sentiment' style='position: absolute; bottom: " + (40+(500*request.score))+ "px; font-size:36px'>→</p>";
     }
   });
 

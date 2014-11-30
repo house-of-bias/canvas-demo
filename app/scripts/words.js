@@ -1,7 +1,7 @@
 var words = [
   // https://github.com/wooorm/weasels/blob/master/data/weasels.txt
   "a lot",
-  "about",
+  // "about",
   "acts",
   "again",
   "all",
@@ -67,7 +67,7 @@ var words = [
   "often",
   "only",
   "outside the box",
-  "over",
+  // "over",
   "own",
   "pretty",
   "probably",
@@ -169,5 +169,11 @@ var words = [
   "somewhat",
   "surely",
   "truly",
-  "usually"
+  // "usually"
+// media related
+  "terrorist", "terrorism",
+  "ethnic",
+  "violence",
+  "mob", "mobs",
+  "rampaging", "rampage", "riot"  
 ]

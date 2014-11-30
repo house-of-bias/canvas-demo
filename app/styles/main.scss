@@ -1,46 +1,48 @@
 @import 'init';
-@import 'tabs';
 
-body {
+body#bias {
+  @import 'tabs';
+  
   padding: 0;
   margin: 0;
   width: 520px;
   background-color: $paper;
+
+  .author {}
+  .row {
+    clear: both;
+    margin: 0.25em 0;
+  }
+  .field-title,
+  .field-value {
+    float: left;
+  }
+  .field-title {
+    width: 25%;
+    color: #666;
+  }
+  .field-value {
+    width: 75%;
+    #color: #222;
+  }
+
+
+  /* Sparkline */
+
+  .sparkline {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.5px;
+  }
+  .sparkcircle {
+    fill: #f00;
+    stroke: none;
+  }
+  .twitter-sparkline div {
+    display: inline-block;
+  }
+  .retweets {
+    color: #f00;
+  }
 }
 
-.author {}
-.row {
-  clear: both;
-  margin: 0.25em 0;
-}
-.field-title,
-.field-value {
-  float: left;
-}
-.field-title {
-  width: 25%;
-  color: #666;
-}
-.field-value {
-  width: 75%;
-  #color: #222;
-}
-
-
-/* Sparkline */
-
-.sparkline {
-  fill: none;
-  stroke: #000;
-  stroke-width: 0.5px;
-}
-.sparkcircle {
-  fill: #f00;
-  stroke: none;
-}
-.twitter-sparkline div {
-  display: inline-block;
-}
-.retweets {
-  color: #f00;
-}
